@@ -1,0 +1,99 @@
+body {
+
+    @media (max-width:767px) {
+
+        /*mobile && TabletRules */
+        p {
+            color: red;
+            font-size: 40px;
+        }
+
+    }
+
+
+    @media(min-width:768px)  { /* small screen rule */
+     p{
+        color: #fff;
+        font-size: 20px;
+        background-color: #333;
+       
+       
+     }  
+        
+    }
+
+    @media(min-width:992px)  {
+   
+    }
+
+    @media(min-width:1200px) {
+      
+    }
+
+}
+
+@media(min-width:768px) and (max-width:991px)  { /* small screen rule */
+    p{
+       
+       padding: 50px;
+    }  
+       
+   }
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+   /* start header */
+.header{
+    background-image: url('../images/photo\ moon.webp')  ;
+    
+    background-size: cover;
+   min-height: 1000px;
+    position: relative;
+}
+
+.overly{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0,168,225,.5);
+}
+
+
+.header .overly h1{
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.header .overly .plan{
+    border: 2px solid white;
+    width: 50%;
+    font-size: 24px;
+    float: left;
+    padding: 20px;
+}
+
+
+@media (max-width:767px) {
+    .header .overly .plan{
+        float: none;
+        margin: 0 auto 20px;
+        font-size: 16px;
+    }
+    
+}
+
+   /* end header */
+
+
+
+   /* start framework */
+   .text-center{
+    text-align: center;
+   }
+   /* end framework */
